@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BokCoin</title>
+</head>
+<body>
+  <h1>BokCoin</h1>
+  <button onclick="tap()">🪙 Tap</button>
+  <p>Coins: <span id="coins">0</span></p>
+
+  <script>
+    let coins = 0;
+    function tap() {
+      coins++;
+      document.getElementById("coins").textContent = coins;
+    }
+  </script>
+</body>
+</html>
